@@ -1,0 +1,36 @@
+name: Bug report
+description: バグ報告のためのテンプレートです。
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: 事象
+      description: 発生した事象をできるだけ詳細に記載してください。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 対象ページのURL
+      description: 対象ページのURLを記載してください。
+  - type: textarea
+    attributes:
+      label: 画面のスクリーンショット
+      description: 画面のスクリーンショットを添付してください。
+  - type: textarea
+    attributes:
+      label: 再現方法
+      description: 再現性が認知できていれば、手順を記載してください。
+  - type: textarea
+    attributes:
+      label: 環境
+      description: 閲覧環境を記載してください。閲覧環境チェックツールの利用がおすすめです。
+      placeholder: |
+        - ブラウザ: 
+        - User Agent: 
+        - デバイス: 
+        - OS: 
+        - 言語: 
+        - 地域: 
+        - Cookie: 
+        - JavaScript: 
+        - ブラウザサイズ:
